@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Synex Esports</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      color: #fff;
+      line-height: 1.4;
+      overflow-x: hidden;
+      background: linear-gradient(135deg, #0d0000, #240000, #400000, #700000);
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    header {
+      background: rgba(0,0,0,0.6);
+      padding: 25px 0;
+      text-align: center;
+      font-size: 2.3rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #ff2e2e;
+      box-shadow: 0 0 15px #b30000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      background: rgba(20, 0, 0, 0.6);
+      backdrop-filter: blur(8px);
+    }
+
+    nav a {
+      color: #ffb3b3;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+      text-shadow: 0 0 8px #ff0000;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: rgba(0,0,0,0.3);
+      border-bottom: 2px solid #660000;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      color: #ff4c4c;
+      text-shadow: 0 0 15px #ff0000;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+      color: #ffcccc;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+      background: rgba(0,0,0,0.3);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    section h2 {
+      color: #ff4c4c;
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      max-width: 800px;
+      margin: 0 auto;
+      color: #ffcccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: rgba(0,0,0,0.8);
+      color: #ffb3b3;
+      font-size: 0.9rem;
+      border-top: 2px solid #660000;
+    }
+
+    .facts {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .fact {
+      background: rgba(20,0,0,0.6);
+      border: 1px solid #660000;
+      border-radius: 10px;
+      padding: 25px;
+      width: 280px;
+      box-shadow: 0 0 10px #330000;
+      transition: 0.3s;
+    }
+
+    .fact:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #ff0000;
+    }
+
+    .fact h3 {
+      color: #ff6666;
+      margin-bottom: 10px;
+    }
+
+    .shop {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .item {
+      background: rgba(25,0,0,0.6);
+      border: 1px solid #660000;
+      border-radius: 10px;
+      padding: 25px;
+      width: 250px;
+      color: #ffb3b3;
+      box-shadow: 0 0 8px #330000;
+    }
+  </style>
+</head>
+<body>
+  <header>Synex Esports</header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#fortnite">Game Facts</a>
+    <a href="#shop">Shop</a>
+    <a href="#updates">Updates</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h1>Welcome to Synex Esports</h1>
+    <p>Experience the power of the Synex community — where competition meets innovation. Our journey begins with passion and evolves with every challenge we conquer.</p>
+  </section>
+
+  <section id="fortnite">
+    <h2>Fortnite Game Facts</h2>
+    <div class="facts">
+      <div class="fact">
+        <h3>Fact #1</h3>
+        <p>Fortnite began as a PvE zombie defense game called “Save the World.”</p>
+      </div>
+      <div class="fact">
+        <h3>Fact #2</h3>
+        <p>The first Fortnite World Cup had a $30 million prize pool, one of the biggest in esports history.</p>
+      </div>
+      <div class="fact">
+        <h3>Fact #3</h3>
+        <p>Fortnite has collaborated with over 100 brands, from Marvel to Star Wars.</p>
+      </div>
+      <div class="fact">
+        <h3>Fact #4</h3>
+        <p>Over 350 million players have registered accounts since launch.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="shop">
+    <h2>Synex Shop</h2>
+    <p>Our official Synex Esports merchandise store is launching soon. Stay tuned for exclusive drops and team wear.</p>
+    <div class="shop">
+      <div class="item">Coming Soon...</div>
+      <div class="item">Coming Soon...</div>
+      <div class="item">Coming Soon...</div>
+    </div>
+  </section>
+
+  <section id="updates">
+    <h2>Latest Updates</h2>
+    <p>We’ve launched our new official website! Exciting changes and new features will be added soon — stay connected.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Synex Esports | All Rights Reserved
+  </footer>
+</body>
+</html>
